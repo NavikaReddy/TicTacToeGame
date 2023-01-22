@@ -1,0 +1,68 @@
+.width
+{
+    width: 800px;
+    margin: auto;
+    box-shadow: 3px 5px 5px white;
+    padding: 50px;
+}
+
+.hide
+{
+    display: none;
+}
+
+.container
+{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 50px;
+}
+
+.grid
+{
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.reset-btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.result
+{
+    color: white;
+}
+
+.tic
+{
+    color: #ff0023;
+}
+
+.tac
+{
+    color: #1702fc;
+}
+
+.toe
+{
+    color: #fefe2c;
+}
+
+.Player-x
+{
+    color: #ff0023;
+}
